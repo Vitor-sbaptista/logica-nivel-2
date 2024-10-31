@@ -1,0 +1,10 @@
+'''
+Exercício 9
+'''
+custoFabrica = int(input("Qual o custo de fábrica? "))
+porcentagemDistribuidor = 0.28 * custoFabrica
+imposto = 0.45 * custoFabrica
+carro = custoFabrica + imposto + porcentagemDistribuidor
+print("Valor do distribuidor: ",porcentagemDistribuidor)
+print("Valor do imposto: ", imposto)
+print("O custo final do carro é: ", carro)
